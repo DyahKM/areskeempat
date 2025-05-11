@@ -1,0 +1,42 @@
+Monthly to Daily Disaggregation Summary
+=====================================
+
+Parameters Used:
+- Lambda values: 0.10 1.00 5.00 10.00 20.00 
+- Alpha: 0.50
+- Gamma: 0.50
+- Iteration Time: 4
+- Stop Ratios: 8 
+
+Method Comparison:
+-----------------
+H-Fusion:
+- Smoothness Score: 4645.9513
+- Average Daily Variation: 43.1649
+
+ARES:
+- Smoothness Score: 193.4052
+- Average Daily Variation: 10.1529
+
+Error Metrics Results:
+--------------------
+Non-Integer Version:
+- Monthly Average ERROR: 58.6565
+- Neighboring Days ERROR: 10.1540
+- Weekly Pattern ERROR: 597.1467
+- Monthly Pattern ERROR: 597.0843
+
+Integer Version:
+- Monthly Average ERROR: 58.6565
+- Neighboring Days ERROR: 10.1599
+- Weekly Pattern ERROR: 597.1508
+- Monthly Pattern ERROR: 597.0897
+
+Constraint Validation:
+--------------------
+Non-Integer:
+Mean Absolute Error: 0.000000
+Mean Relative Error: 0.000000%
+Integer:
+Mean Absolute Error: 0.000000
+Mean Relative Error: 0.000000%

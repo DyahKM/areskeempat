@@ -1,0 +1,12 @@
+perubahan di baseline ini adalah 
+1. events dihapus dan semua yg mengandung events 
+2. Tujuan Awal Konfigurasi
+config_rep_dur dan config_rep_over awalnya digunakan untuk testing robustness model
+Mereka digunakan untuk membuat "synthetic reports" dengan durasi dan overlap yang berbeda
+Ini adalah bagian dari eksperimen untuk melihat bagaimana model bekerja dengan berbagai konfigurasi data
+Mengapa Dihapus
+Dalam kasus kita, kita sudah memiliki data bulanan yang jelas (reports)
+Kita tidak perlu membuat synthetic reports karena:
+Data kita sudah terstruktur (bulanan)
+Kita fokus pada disagregasi bulan ke hari
+Tidak perlu testing dengan berbagai konfigurasi durasi
